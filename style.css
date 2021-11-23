@@ -1,0 +1,30 @@
+.countup {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 20px;
+  background: #ffb7c5;
+  margin: 0;
+  color: black;
+  min-width: 4rem;
+  margin-left: 10px;
+  border-radius: 25px 0 0 25px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 25px 25px 0;
+  margin-left: 0;
+  background: #126180;
+  color: white;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(/img/love.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 25px;
+}
